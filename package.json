@@ -2,8 +2,11 @@
   "name": "deved",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://junxiang-leong.github.io/portfolio-project/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -23,6 +26,7 @@
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.2",
     "@wixc3/react-board": "^2.3.0",
+    "gh-pages": "^6.0.0",
     "sass": "^1.63.6",
     "typescript": "^5.1.6",
     "vite": "^4.4.0"

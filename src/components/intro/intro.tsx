@@ -30,8 +30,6 @@ export const Intro = ({ className }: IntroProps) => {
                         stroke="url(#paint0_linear_6_519)"
                         stroke-width="3"
                         stroke-linecap="round"
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
                         className={styles['path-line']}
                     />
                     <defs>
