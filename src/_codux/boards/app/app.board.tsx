@@ -1,12 +1,18 @@
 import { createBoard } from '@wixc3/react-board';
 import App from '../../../App';
+import { MemoryRouter } from 'react-router-dom';
 
 export default createBoard({
     name: 'App',
-    Board: () => <App />,
+    Board: () => (
+        <MemoryRouter>
+            <App />
+        </MemoryRouter>
+    ),
     environmentProps: {
-        windowWidth: 1048,
-        canvasWidth: 979,
-        canvasHeight: 3318,
+        windowWidth: 2062,
+        canvasWidth: 750,
+        windowHeight: 1116,
+        canvasHeight: 1199,
     },
 });
