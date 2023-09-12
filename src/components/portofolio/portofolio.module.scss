@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 2em;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.h3 {
+}
+.span {
+  color: #ff5757;
+  font-weight: 600;
+}
+.span {
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 0% 5%;
+  text-align: center;
+}
+
+.socials{
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	display: flex;
+	gap: 3rem;
+	justify-content: center;
+}
+
+.socials img{
+	height: 2.5rem;
+}
+
+.social-svg {
+	height: 2rem;
+	fill: #dc3232;
+}
